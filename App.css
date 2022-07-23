@@ -1,0 +1,106 @@
+body {
+  background-color: aliceblue;
+}
+
+.image{
+  background-image: url('./todo1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+}
+
+
+.center {
+  margin-top: 40px;
+  width: 30%;
+  height: 80vh;
+  /* background-color: rgb(255 250 203); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+  border-radius: 20px;
+  z-index: -1;
+  background: transparent;
+
+}
+.center h1 {
+  margin-top: -300px;
+  background-color: #efefef00;
+  color: rgb(77, 77, 77);
+  padding: 10px;
+}
+
+.inp {
+  display: flex;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.inp input {
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid black;
+  margin-right: 15px;
+  background-color: #e8e8e8;;
+  /* margin-left: -50px; */
+}
+
+.inp button {
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 35%;
+  background-color: #90d8a9;
+  color: white;
+  outline: none;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.inp button:hover {
+  background-color: rgb(74 203 77);
+  cursor: pointer;
+}
+
+.todo_style {
+  display: flex;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.todo_style button {
+  background-color: rgb(241, 151, 171);
+  color: white;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-left: -120px;
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.todo_style button:hover {
+  background-color: red;
+  color: white;
+}
+
+.todo_style li {
+  list-style: none;
+}
